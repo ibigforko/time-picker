@@ -1,0 +1,27 @@
+{
+  "name": "time-picker",
+  "version": "0.0.1",
+  "description": "TimePicker based on Vue 3 (Composition API + TS) & Tailwind 3",
+  "homepage": "https://github.com/ibigforko/time-picker#readme",
+  "main": "vue-timepicker.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibigforko/time-picker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ibigforko/time-picker/issues"
+  },
+  "keywords": [
+    "TimePicker",
+    "TimePicker-vue3",
+    "TimePicker-Tailwind"
+  ],
+  "author": "Artem Shevchenko (ibigforko)",
+  "license": "MIT",
+  "devDependencies": {
+    "vue": "^3.2.24"
+  }
+}
