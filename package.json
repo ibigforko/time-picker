@@ -1,5 +1,5 @@
 {
-  "name": "time-picker",
+  "name": "timepicker-vue3-tailwind",
   "version": "0.0.1",
   "description": "TimePicker based on Vue 3 (Composition API + TS) & Tailwind 3",
   "homepage": "https://github.com/ibigforko/time-picker#readme",
