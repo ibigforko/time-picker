@@ -1,6 +1,6 @@
 {
   "name": "timepicker-vue3-tailwind",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TimePicker based on Vue 3 (Composition API + TS) & Tailwind 3",
   "homepage": "https://github.com/ibigforko/time-picker#readme",
   "main": "vue-timepicker.vue",
@@ -23,11 +23,11 @@
   "license": "MIT",
   "devDependencies": {
     "@vue/cli-plugin-eslint": "~4.5.4",
-    "vue": "^3.2.24",
-    "vue-loader": "^16.8.3",
-    "tailwindcss": "^3.3.2",
     "eslint": "^6.8.0",
     "eslint-plugin-vue": "^7.20.0",
-    "esm": "^3.2.25"
+    "esm": "^3.2.25",
+    "tailwindcss": "^3.3.5",
+    "vue": "^3.2.24",
+    "vue-loader": "^16.8.3"
   }
 }
