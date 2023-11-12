@@ -26,6 +26,8 @@
     "eslint": "^6.8.0",
     "eslint-plugin-vue": "^7.20.0",
     "esm": "^3.2.25",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
     "tailwindcss": "^3.3.5",
     "vue": "^3.2.24",
     "vue-loader": "^16.8.3"
