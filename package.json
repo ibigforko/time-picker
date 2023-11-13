@@ -1,12 +1,13 @@
 {
   "name": "timepicker-vue3-tailwind",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "TimePicker based on Vue 3 (Composition API + TS) & Tailwind 3",
   "homepage": "https://github.com/ibigforko/time-picker#readme",
   "main": "dist/vue-timepicker.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --watch --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,8 @@
     "url": "https://github.com/ibigforko/time-picker/issues"
   },
   "files": [
-    "dist"
+    "dist",
+    "index.d.ts"
   ],
   "keywords": [
     "TimePicker",
@@ -45,5 +47,12 @@
   },
   "dependencies": {
     "@babel/preset-typescript": "^7.23.3"
+  },
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-timepicker.js",
+      "types": "./index.d.ts"
+    }
   }
 }
