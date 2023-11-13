@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
   mode: 'production',
-  entry: './vue-timepicker.vue',
+  entry: './src/vue-timepicker.vue',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'vue-timepicker.js',
