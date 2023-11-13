@@ -1,12 +1,12 @@
 {
     "compilerOptions": {
-        "target": "es5",
+        "moduleResolution": "node",
+        "target": "es6",
+        "module": "es6",
         "lib": [
             "es2017", 
             "dom"
         ],
-        "module": "esnext",
-        "moduleResolution": "node",
         "strict": true,
         "noImplicitAny": false,
         "sourceMap": true,
@@ -18,10 +18,12 @@
         "baseUrl": ".",
         "paths": {
             "*": ["types/*"]
-        }
+        },
+        "declaration": true,
+        "declarationDir": "./dist/types"
     },
     "include": [
-        "*.d.ts"
+        "src/**/*"
     ],
     "exclude": [
         "node_modules"
