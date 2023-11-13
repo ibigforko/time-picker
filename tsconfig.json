@@ -16,7 +16,13 @@
             "node_modules/@types",
         ],
         "baseUrl": ".",
+        "paths": {
+            "*": ["types/*"]
+        },
     },
+    "include": [
+        "vue-timepicker.d.ts"
+    ],
     "exclude": [
         "node_modules"
     ]
